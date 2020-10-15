@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+genes = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+
+
+for n in genes:
+	gtuple = tuple(n)
+	print('({} {})'.format(len(gtuple), gtuple))

@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+gen = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+
+
+for n in gen:
+	print('{}  {}  {}'.format(len(n), gen.index(n), n))
+
+

@@ -1,0 +1,10 @@
+#!/env/bin/usr python3
+
+#Questão 6
+thislist = [101,2,15,22,95,33,2,27,72,15,52]
+num = [int(val) for val in thislist]
+list_iterator = iter(num)
+for num in list_iterator:
+	if num %2 == 0:
+		print('{} é par!'.format(num))
+

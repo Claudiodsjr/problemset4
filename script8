@@ -1,0 +1,6 @@
+#!/env/bin/usr python3
+
+r = range(1, 101)
+
+for num in r:
+	print(num) 

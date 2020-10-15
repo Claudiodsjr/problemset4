@@ -1,0 +1,14 @@
+#!/env/bin/usr python3
+
+n = [101,2,15,22,95,33,2,27,72,15,52]
+print(sorted(n))
+
+for numbers in n:
+	if numbers %2 == 0:
+		ne = numbers %2 == 0
+		print(ne)
+	elif numbers %2 != 0:
+		no = numbers %2 != 0
+		print(no)
+	else:
+		print('Não consta.')
